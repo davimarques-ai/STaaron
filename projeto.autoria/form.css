@@ -1,0 +1,102 @@
+/* RESET BÁSICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+
+    background-image: url(./img/2RBVLGMHIVHBPI7DHUJ7POLU2I.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    overflow-x: hidden; /* nunca scroll lateral no site */
+}
+
+/* TÍTULO */
+h1 {
+    margin: 20px;
+}
+
+/* ===== ELENCO ===== */
+
+.tabela {
+    width: 100%;
+    overflow-x: auto;     /* scroll SOMENTE aqui */
+    overflow-y: hidden;
+    padding: 15px 0;
+}
+
+table {
+    border-spacing: 15px;
+    white-space: nowrap;
+    margin: 0 auto;
+}
+
+.elenco {
+    width: 180px;
+    max-width: 40vw;
+    border-radius: 8px;
+}
+
+td {
+    text-align: center;
+    font-size: 14px;
+}
+
+.personagens {
+    font-size: 12px;
+}
+
+/* ===== RODAPÉ ===== */
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0 15px 0;
+}
+
+/* LOGO */
+.logo {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+/* MENU */
+.paginas {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.paginas a {
+    display: inline-block;
+    margin: 0 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.paginas a:hover {
+    text-decoration: underline;
+}
+
+/* LINHA */
+.linha {
+    width: 60%;
+    height: 2px;
+    background-color: #e50914;
+    border: none;
+    margin: 10px auto 0 auto;
+}
+
+/* LINKS GERAIS */
+a {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pesquisa</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <div class="container">
+                <audio src="./audio/Metallica - Master Of Puppets.mp3" autoplay loop></audio>
+        <hr class="linha">
+        <div class="paginas">
+            <a href="./index.html"><h3>Início</h3></a>
+            <a href="./galeria.html"><h3>Galeria</h3></a>
+            <a href="./elenco.html"><h3>Elenco</h3></a>
+            <a href="./sobre.html"><h3>Sobre</h3></a>
+        </div>
+             <div class="formulario">
+                <form action="#">
+                    <fieldset>
+                        <legend>Pesquisa de fãs</legend>
+                        <div class="elementos">
+                            <label>Nome:</label>
+                            <input type="text" name="nome"><br><br>
+
+                                <label>Idade:</label>
+                                <input type="number" name="idade"><br><br>
+
+                                <label>Você conhece a série Stranger Things?</label><br>
+                                <input type="radio" name="conhece" value="sim"> Sim<br>
+                                <input type="radio" name="conhece" value="nao"> Não<br>
+
+                                <label>Como conheceu a série?</label><br>
+                                <input type="checkbox" name="origem" value="netflix"> Netflix<br>
+                                <input type="checkbox" name="origem" value="amigos"> Indicação de amigos<br>
+                                <input type="checkbox" name="origem" value="redes"> Redes sociais<br>
+
+                                <label>Temporada favorita:</label><br>
+                                <select name="temporada">
+                                <option value="">Selecione</option>
+                                <option>1ª Temporada</option>
+                                <option>2ª Temporada</option>
+                                <option>3ª Temporada</option>
+                                <option>4ª Temporada</option>
+                                <option>5ª Temporada</option>
+                                </select><br>
+
+                                <label>Personagem favorito:</label><br>
+                                <select name="personagem">
+                                <option value="">Selecione</option>
+                                <option>Eleven</option>
+                                <option>Mike</option>
+                                <option>Dustin</option>
+                                <option>Lucas</option>
+                                <option>Max</option>
+                                <option>Will</option>
+                                <option>Joyce</option>
+                                <option>Nancy</option>
+                                <option>Hopper</option>
+                                <option>Steve</option>
+                                <option>Robin</option>
+                                <option>Erica</option>
+                                <option>Jonathan</option>
+                                <option>Henry</option>
+                                <option>Holly</option>
+                                <option>Kali</option>
+                                <option>Derek</option>
+                                </select><br>
+
+                                <label>Nota para a série:</label><br>
+                                <select name="nota">
+                                <option value="">Selecione</option>
+                                <option>1 - Péssima</option>
+                                <option>2 - Ruim</option>
+                                <option>3 - Mais ou menos</option>
+                                <option>4 - Boa</option>
+                                <option>5 - Exelente</option>
+                                </select><br>
+
+                                <label>O que mais te marcou na série?</label><br>
+                                <textarea name="comentario" rows="4"></textarea><br>
+                        </div>
+
+                        <fieldset>
+                            <input type="submit" value="Enviar" class="botao enviar">
+                            <input type="reset" value="Limpar" class="botao limpar">
+                        </fieldset>
+                    </fieldset>
+                </form>
+        </div>
+</div>
+</body>
+</html>
+
